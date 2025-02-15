@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* The Navbar */
+nav {
+    margin-top: 3vh;
+    margin-left: 10%;
+    /* border: .5px solid rgb(0, 0, 0); */
+    border-radius: 30px;
+    /* background-color: rgb(241, 245, 205); */
+    height: 10vh;
+    width: 80vw;
+    /* position: sticky; */
+    /* top: 0px; */
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    list-style: none;
+}
+
+.i {
+    display: none;
+}
+
+li {
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ce8686;
+    /* font-size: 20px; */
+}
+
+a:hover {
+    color: rgb(8, 8, 8);
+
+}
+
+.item1 {
+    padding: 1px;
+    /* margin: 10px; */
+    margin: 6px -20px 10px 10px;
+}
+
+.item2 {
+    margin-right: auto;
+    /* margin-bottom: 10px; */
+}
+
+.navlogo {
+    /* margin-bottom: 10px; */
+    height: 50px;
+    width: 50px;
+    border-radius: 60%;
+}
+
+/* The main content */
+.content {
+    margin: 10vh 0vh 0vh 25vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+    width: 50vw;
+}
+
+
+
+.para1 {
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: underline;
+}
+
+.paragraph {
+    margin: 5vh;
+    /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+/* The Ddownload button */
+.download {
+    border: none;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.all {
+    margin-top: 25px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/* The Cards */
+.card {
+    box-shadow: 5px 7px #616060;
+    height: 35vh;
+    /* width: 25vw; */
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #c6ecdd;
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 15vw);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.card div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.half1 {
+    margin: 10px;
+    height: 100px;
+    width: 170px;
+    /* box-sizing: content-box; */
+}
+
+.buy {
+    border: none;
+    font-size: 11px;
+    background-color: rgb(205, 202, 235);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.about {
+    margin: 10px;
+}
+
+h3 {
+    text-align: left;
+}
+
+/* Side logo */
+.logo {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 60%;
+    float: right;
+    position: fixed;
+    right: 60px;
+    bottom: 40px;
+    text-align: center;
+}
+
+.imglogo {
+    height: 80px;
+    width: 80px;
+    border-radius: 60%;
+}
+
+.footer {
+    /* margin: 20px; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(56, 56, 55);
+    color: #ffffff;
+}
+
+.footer-div {
+    width: 90%;
+}
+
+.footer-div p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.clk {
+    display: none;
+}
+
+
+.test {
+    /* background-color: #9b4a4a; */
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test2 {
+    /* background-color: #0d339c; */
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 900px) {
+    .cards {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    nav {
+        /* background-color: #775b5b; */
+        display: none;
+    }
+
+    .items {
+        display: none;
+    }
+
+    .i {
+        display: flex;
+        align-items: flex-end;
+        list-style: none;
+    }
+
+    .clk {
+        display: inline-flex;
+    }
+
+    .test {
+        font-weight: bold;
+    }
+
+    .test2 {
+        font-weight: bold;
+
+    }
+
+    .test:hover {
+        color: blue;
+    }
+
+    .test2:hover {
+        color: blue;
+    }
+
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="clk">
+        <div class="test" onclick="showSideBar()">
+            ☰
+        </div>
+        <div class="test2" onclick="hideSideBar()">
+            &times;
+        </div>
+    </div>
+    <nav class="container">
+        <ul class="items">
+            <li class="item item1"><img src="Image\logo.jpg" alt="" class="navlogo"></li>
+            <li class="item item2"><a href="#">
+                    Learn Development</a>
+            </li>
+            <li class="item item3"><a href="#">Courses</a></li>
+            <li class="item item4"><a href="#">Videos</a></li>
+            <li class="item item5"><a href="#">Resources</a></li>
+            <li class="item item6"><a href="#">About us</a></li>
+            <!-- <li class="item7"></li> -->
+        </ul>
+    </nav>
+    <ul class="i" id="ajeet">
+        <!-- <li class="it it1"><img src="Image\logo.jpg" alt="" class="n"></li> -->
+        <li class="it it2"><a href="#">
+                Learn Development</a>
+        </li>
+        <li class="it it3"><a href="#">Courses</a></li>
+        <li class="it it4"><a href="#">Videos</a></li>
+        <li class="it it5"><a href="#">Resources</a></li>
+        <li class="it it6"><a href="#">About us</a></li>
+        <!-- <li class="item7"></li> -->
+    </ul>
+    <div class="another-nav">
+
+    </div>
+
+
+    <main class="content">
+        <p class="para1"> DownLoad <b>LearnDevelopment</b> for Windows</p>
+        <p class="paragraph">Download and try <b>LearnDevelopment</b> before you buy it! This download includes the full
+            windows
+            version of the text editor.
+        </p>
+        <button class="download"><a href="downloading.html" target="_blank">Click here to Download</a></button>
+
+        <div class="all">↓↓ All Courses ↓↓</div>
+        <div class="cards">
+            <div class="card card1">
+                <div class=""><img src="Image\java.jpg" alt="" class="half1">
+                    <div>Course name: Java</div>
+                    <div> Price : $150</div>
+                    <div>Duration: 1.5 year</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card2">
+                <div class=""><img src="Image\python.jpg" alt="" class="half1">
+                    <div>Course name: Python</div>
+                    <div> Price : $200</div>
+                    <div>Duration: 1 year</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card3">
+                <div class=""><img src="Image\c++.jpg" alt="" class="half1">
+                    <div>Course name: C++</div>
+                    <div> Price : $100</div>
+                    <div>Duration: 9 months</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card4">
+                <div class=""><img src="Image\html.jpg" alt="" class="half1">
+                    <div>Course name: HTML</div>
+                    <div> Price : $50</div>
+                    <div>Duration: 3 Months</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card5">
+                <div class=""><img src="Image\css.jpg" alt="" class="half1">
+                    <div>Course name: CSS</div>
+                    <div> Price : $200</div>
+                    <div>Duration: 6 months</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card6">
+                <div class=""><img src="Image\js.jpg" alt="" class="half1">
+                    <div>Course name: JavaScript</div>
+                    <div> Price : $300</div>
+                    <div>Duration: 2 year</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card7">
+                <div class=""><img src="Image\react.jpg" alt="" class="half1">
+                    <div>Course name: React</div>
+                    <div> Price : $150</div>
+                    <div>Duration: 6 months</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card8">
+                <div class=""><img src="Image\node.jpg" alt="" class="half1">
+                    <div>Course name: Node.JS</div>
+                    <div> Price : $200</div>
+                    <div>Duration: 6 months</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+            <div class="card card9">
+                <div class=""><img src="Image\angular.jpg" alt="" class="half1">
+                    <div>Course name: Angular</div>
+                    <div> Price : $200</div>
+                    <div>Duration: 6 months</div>
+                    <button class="buy"><a href="buy.html" target="_blank">Click to buy</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="logo"><img src="Image\logo.jpg" alt="" class="imglogo"></div>
+    <div class="footer">
+        <div class="footer-div">
+            <p>&copy;2024 [Ajeet Verma]. All rights reserved.</p>
+        </div>
+    </div>
+
+
+    <script>
+
+        function showSideBar() {
+            let a = document.getElementById('ajeet');
+            a.style.display = "block";
+        }
+        function hideSideBar() {
+            let b = document.getElementById('ajeet');
+            b.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
