@@ -1,6 +1,6 @@
 # Course Selling Webpage 📚💻
 
-**Course Selling Webpage** is a static website designed to showcase and sell online courses. The webpage highlights different courses with details such as price, course. It features smooth navigation,**a responsive design**, and interactive elements built with **HTML**, **CSS**, and **JavaScript**. 
+**Course Selling Webpage** is a static website designed to showcase and sell online courses. The webpage highlights different courses with details such as price, course. It features smooth navigation,**a responsive design**, and interactive elements built with **HTML** and **CSS**. 
 
 ## Features 🌟
 
@@ -13,7 +13,6 @@
 
 - **HTML**: Used for structuring the content.
 - **CSS**: Custom styling for modern look and feel.
-- **JavaScript**: Provides interactivity and smooth animations.
 
 ## Installation 🚀
 
